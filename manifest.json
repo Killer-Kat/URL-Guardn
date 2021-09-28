@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "URL-Guardn",
+  "version": "1.0",
+
+  "description": "Removes URL based tracking footers",
+
+  "icons": {
+    
+
+  },
+
+  "content_scripts": [
+    {
+      
+      "js": [ "borderify.js" ]
+    }
+  ]
+}
