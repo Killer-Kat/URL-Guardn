@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "URL-Guardn",
+  "version": "1.0",
+
+  "description": "Removes URL based tracking footers",
+
+  "icons": {
+
+    "40": "icons/Guardn-40.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [ "*.google.com/search*" ], //Looks like I may need to use a whitelist due to the way URL Query
+      "js": [ "google.js" ]
+    }
+  ]
+}
